@@ -1,0 +1,26 @@
+git commands:-
+
+
+git add . (to add everything in the current directory to the staging area)
+git commit -m "message" (to commit everything present in the staging area commiting means to take a snapshot of the current changes)
+git restore --staged (file name) (to remove the file from the staging area)
+
+==========git log==================
+git log (To list all the previous commits made )
+
+==========git reset===============
+to go back to a certain commit use:-
+git reset (commitid)(u can have the commit id using the git log command) (what this command will do is remove all the commmits from the history above this particular commit the one u used for resetting)
+
+
+==============git stash====================
+use git stash command to send the current changes to backstage but first u need to stage the changes for example:-
+you made some changes ,then first stage the changes using (git add .) ,then use git stash to send these changes to backstage so that you can use them again whenever you want.
+
+=============git stash pop=================
+this will bring back the changes which were previously backstaged
+
+=============git stash clear===============
+this will remove the files from backstage and they can't be brought back now
+
+============
